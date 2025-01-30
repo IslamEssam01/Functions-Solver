@@ -73,7 +73,7 @@ Pratt parsing is a **top-down operator precedence** parsing technique that dynam
 ✔ **Recursive structure** makes it easy to implement.  
 
 ### **How the Parser Works in This Project**
-1. **Tokenizer:** Converts the input expression into tokens (`2*x^2 + 3*x - 5`).  
+1. **Lexer:** Converts the input expression into tokens (`2*x^2 + 3*x - 5`).  
 2. **Parser:** Uses **Pratt parsing** to build an abstract syntax tree (AST).  
 3. **Evaluator:** Recursively evaluates the AST to compute the result.  
 
