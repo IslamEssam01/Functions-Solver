@@ -1,5 +1,7 @@
 # Functions-Solver
 
+https://github.com/user-attachments/assets/5a2c5183-90de-407f-86a5-5570c751aa4b
+
 A powerful **mathematical functions solver** with a custom **parser and evaluator** built using **Pratt parsing**. This project efficiently handles various mathematical expressions, including **polynomials, trigonometric, exponential, and logarithmic functions**.
 
 ## Table of Contents
