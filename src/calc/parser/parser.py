@@ -17,9 +17,10 @@ precedences = {
     "asterisk": 2,  # *
     "slash": 2,  # /
     "exponent": 3,  # ^
-    "variable": 4,  # any variable (default is x)
-    "lparen": 4,  # (
-    "function": 4  # any function
+    "prefix": 4,  # for prefix expressions (e.g. -x)
+    "variable": 4,  # any variable ( x by default )
+    "lparen": 5,  # (
+    "function": 5  # any function
 }
 
 
@@ -163,7 +164,7 @@ class Parser:
         """
         if not isinstance(token.value, str):
             raise TypeError("toke.value must be str")
-        return PrefixExpression(token.value, self.parseExpression())
+        return PrefixExpression(token.value, self.parseExpression(precedences["prefix"]))
 
     def parseInfixExpression(self, left: ASTNode, token: Token) -> InfixExpression:
         """
