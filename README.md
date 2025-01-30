@@ -19,7 +19,8 @@ A powerful **mathematical functions solver** with a custom **parser and evaluato
 ## **Features**
 
 ✔ **Custom Parser & Evaluator** → Uses **Pratt parsing** to efficiently parse and evaluate mathematical expressions.  
-✔ **Supports Various Functions** → sqrt,sin,cos,log10.  
+✔ **Supports Various Functions** → sqrt,sin,cos,log10.
+✔ **Supports Implicit Muliplication** → xx is the same as x*x.
 ✔ **Efficient & Extensible** → Designed for quick computations and easy expansion.  
 ✔ **Graphical User Interface** → Built using **PySide2** for an interactive experience.  
 ✔ **Visualization Support** → Uses **Matplotlib** to plot functions and visualize results that supports panning,zooming, and changing functions colors.  
