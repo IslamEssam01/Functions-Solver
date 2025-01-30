@@ -333,8 +333,10 @@ class FunctionsSolver(QMainWindow):
                     height += label.sizeHint().height()
                     self.solutions_layout.addWidget(label)
             else:
+                print("in")
                 label = QLabel("No intersection points found")
                 self.solutions_layout.addWidget(label)
+                height += label.sizeHint().height()
         self.solutions_container.setFixedHeight(
             height+self.solutions_layout.getContentsMargins()[1]+self.solutions_layout.getContentsMargins()[3])
         self.update_solutions_container_position()
