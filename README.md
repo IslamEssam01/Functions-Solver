@@ -6,6 +6,7 @@ A powerful **mathematical functions solver** with a custom **parser and evaluato
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Examples](#examples)
 - [How It Works: Pratt Parsing](#how-it-works-pratt-parsing)
 - [Running Tests](#running-tests)
 - [Contributing](#contributing)
@@ -57,6 +58,24 @@ Run the application by executing:
 python main.py
 ```
 Then, input the mathematical expression you want to solve.
+
+---
+
+## **Examples**
+<div align="center"> 
+   <table> 
+      <tr> 
+         <td align="center"> <img src="https://github.com/user-attachments/assets/4fcd1503-2502-402a-a191-515e8d23586e" alt="Example 1" width="400"/> </td> 
+         <td align="center"> <img src="https://github.com/user-attachments/assets/f2869624-1617-4ea8-85dc-01dda0201645" alt="Example 2" width="400"/> </td> 
+      </tr> 
+      <tr>
+         <td align="center"> <img src="https://github.com/user-attachments/assets/6c427e3e-ef14-427d-be99-63ee3c5638b1" alt="Example 3" width="400"/></td>  
+         <td align="center"> <img src="https://github.com/user-attachments/assets/fe32b46a-ddb5-46d4-b66f-4bf9c72c7910" alt="Example 4" width="400"/>  </td>        </tr> 
+      <tr>
+         <td align="center"> <img src="https://github.com/user-attachments/assets/b1151427-0b21-4eaf-9546-3071cc6fe366" alt="Example 5" width="400"/></td>  
+         <td align="center"> <img src="https://github.com/user-attachments/assets/971fb5c6-543b-4f5e-a6a7-bdd3c4715160" alt="Example 6" width="400"/>  </td>        </tr> 
+   </table> 
+</div>
 
 ---
 
