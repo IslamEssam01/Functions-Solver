@@ -43,6 +43,10 @@ class PlotWorker(QRunnable):
         # Calculate the maximum x-scale limit based on the x-axis limits
         x_scale_max_limit = int(
             max(abs(self.xlim[0]), abs(self.xlim[1])))
+        if self.intersection_points:
+            x_scale_max_limit = int(
+                max(max(map(abs, self.intersection_points))+100, x_scale_max_limit))
+
         x_scale_min_limit = -x_scale_max_limit
 
         num_points = int(500*(x_scale_max_limit-x_scale_min_limit))
