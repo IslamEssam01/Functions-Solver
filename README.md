@@ -110,6 +110,15 @@ This will execute all tests to ensure the parser and evaluator function as expec
 
 ---
 
+## **Current Considerations**
+
+While the Functions-Solver is designed for efficiency and usability, there are a few aspects to keep in mind:  
+
+- **Performance Optimization:** For extremely complex expressions, computation time may increase.
+- **Evaluation Range:** The solver currently evaluates expressions within an x-range of -3000 to 3000 (inclusive) to ensure numerical stability and practical usability.
+
+---
+
 ## **Contributing**
 
 Contributions are welcome! To contribute:
