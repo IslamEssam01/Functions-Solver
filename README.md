@@ -11,6 +11,7 @@ A powerful **mathematical functions solver** with a custom **parser and evaluato
 - [Examples](#examples)
 - [How It Works: Pratt Parsing](#how-it-works-pratt-parsing)
 - [Running Tests](#running-tests)
+- [Current Considerations](#current-considerations)
 - [Contributing](#contributing)
 - [License](#license)
 
