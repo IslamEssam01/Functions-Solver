@@ -1,5 +1,7 @@
 # Functions-Solver
 
+https://github.com/user-attachments/assets/5a2c5183-90de-407f-86a5-5570c751aa4b
+
 A powerful **mathematical functions solver** with a custom **parser and evaluator** built using **Pratt parsing**. This project efficiently handles various mathematical expressions, including **polynomials, trigonometric, exponential, and logarithmic functions**.
 
 ## Table of Contents
@@ -17,10 +19,11 @@ A powerful **mathematical functions solver** with a custom **parser and evaluato
 ## **Features**
 
 ✔ **Custom Parser & Evaluator** → Uses **Pratt parsing** to efficiently parse and evaluate mathematical expressions.  
-✔ **Supports Various Functions** → Solve **polynomial, trigonometric, exponential, and logarithmic** functions.  
+✔ **Supports Various Functions** → sqrt,sin,cos,log10.
+✔ **Supports Implicit Muliplication** → xx is the same as x*x.
 ✔ **Efficient & Extensible** → Designed for quick computations and easy expansion.  
 ✔ **Graphical User Interface** → Built using **PySide2** for an interactive experience.  
-✔ **Visualization Support** → Uses **Matplotlib** to plot functions and visualize results.  
+✔ **Visualization Support** → Uses **Matplotlib** to plot functions and visualize results that supports panning,zooming, and changing functions colors.  
 ✔ **Fully Tested** → Comes with a test suite to ensure accuracy.  
 
 ---
